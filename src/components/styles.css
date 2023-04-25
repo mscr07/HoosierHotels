@@ -1,0 +1,283 @@
+.App {
+    font-family: sans-serif;
+    padding: 20px;
+    width: 100%;
+    height: fit-content;
+    
+  }
+  
+  .App input {
+    border-radius: 5px;
+    width: 100px;
+  }
+  
+  .card-container {
+    border: 2px solid #f3f2f2;
+    padding: 7px;
+    box-shadow: 2em;
+    border-radius: 5px;
+    width: 375px;
+    height: 400px;
+  }
+  
+  .card-image {
+    width: 360px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  
+  .card-heading {
+    margin-top: 5px;
+    color: #7c3fd8;
+    font-family: "poppins";
+    font-size: 22px;
+    margin-bottom: 0px;
+  }
+  
+  .badge-img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: black !important;
+    background: #f3f2f2;
+    border-radius: 10px;
+  }
+  
+  .price {
+    font-family: "Montserrat";
+    color: orange !important;
+    font-size: 24px;
+  }
+  
+  .image-container {
+    position: relative;
+  
+  }
+  
+  .flexbox {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .icon-text {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  
+  .margin-left {
+    margin-left: 15px;
+  }
+  .btn-width {
+    width: 100%;
+    margin-bottom: 5px;
+   
+  }
+  
+  .margin-right-5 {
+    margin-right: 3px;
+  }
+  
+  .search-container {
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.5);
+    
+  }
+  
+  .no-border-textbox {
+    border: none;
+    border-color: transparent;
+    outline: none;
+  }
+  .search-textbox {
+    display: flex;
+    overflow: hidden !important;
+  }
+  
+  .seperator {
+    height: 20px;
+    color: #000000;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .banner-img {
+    border-radius: 30px;
+  }
+  
+  .flexbox > div {
+    margin: 7px;
+  }
+  
+  .img-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .sub-nav-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+  }
+  .nav-item {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 4px !important;
+    color: white !important;
+    font-size: 12px !important;
+  }
+  
+  .nav-active {
+   /* background: violet;*/
+    border-radius: 10px;
+    font-weight: bold !important;
+  }
+  
+  .nav-bar-container {
+    background-color: rgb(124,63,216) !important;
+  }
+  
+  .nav-padding-left {
+    padding-left: 50px;
+  }
+  
+  .subscribe-container {
+    position: absolute;
+    top: -25%;
+    display: flex;
+    width: 80%;
+    background-color: burlywood;
+    height: 300px;
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin: 20px;
+    justify-content: space-between;
+    z-index: 1030;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+  .subscribe-container-1 {
+    flex-basis: 60%;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 400px;
+  }
+  .sub-header {
+    font-size: 38px;
+    line-height: initial;
+  }
+  
+  .text {
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .margin-top-60 {
+    margin-top: 50px;
+  }
+  
+  .margin-right-10 {
+    margin-right: 10px;
+  }
+  
+  .margin-bottom-10 {
+    margin-bottom: 15px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 375px;
+    padding-top: 240px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .footer-section {
+    flex-direction: column;
+    flex-basis: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .no-center-vertical {
+    align-items: flex-start !important;
+  }
+  
+  .no-center-horizontal {
+    justify-content: flex-start !important;
+  }
+  
+  .footer-logo {
+    height: 30px;
+  }
+  .footer-container {
+    background-color: #8dd3bb !important;
+    position: relative;
+    height: 410px;
+  }
+  .no-wrap {
+    flex-wrap: nowrap !important;
+  }
+  
+  .space-between {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .icons {
+    width: 100px;
+  }
+  .footer-text {
+    font-size: 12x;
+    line-height: 30px;
+  }
+  
+  .color-blue {
+    color: #1e3161;
+  }
+  
+  .flex-start {
+    align-items: flex-start !important;
+    justify-content: flex-start;
+  }
+
+  payment-input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .border-2 {
+    border: 2px solid #f3f2f2;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .payments-container {
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+  }
+  
+  .center-align {
+    text-align: center;
+  }
+  
+  .billing-hotel-name {
+    color: #34ab70;
+    font-size: 18px;
+  }
+  

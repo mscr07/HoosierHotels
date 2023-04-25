@@ -1,0 +1,44 @@
+
+.loginpagecontainer {
+  margin: 0 auto;
+  height: 900px;
+  padding: 20px;
+  width:'300px';
+  margin-left: auto;
+ background-image: url("https://assets.oyoroomscdn.com/cmsMedia/debd50f6-c886-4a0a-9c02-5fa65fd13a20.jpg");
+ background-size: cover;
+ 
+}
+  
+  .login-form {
+    
+    display: flex;
+    flex-direction: column;
+    width:"400px";
+  }
+  
+  .login-form label {
+    margin-bottom: 5px;
+    
+    
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+   
+  }
+  
+  .link-btn {
+    border: none;
+    background-color: transparent;
+    color: #7c3fd8;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .google-btn {
+    margin-top: 20px;
+  }
+  

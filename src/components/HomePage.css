@@ -1,0 +1,35 @@
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body {
+    background-color: #f8f9fa;
+  }
+  
+  .card-title {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      margin: 20px;
+    }
+  }
+  

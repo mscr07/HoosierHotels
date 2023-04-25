@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: "100%";
+  background-size: cover;
+  background-image:url("https://th.bing.com/th/id/R.895f539be982896a8d4b2e360f78720b?rik=jyyN1X61LBRQIw&riu=http%3a%2f%2fktgy.com%2fwp-content%2fuploads%2f2016%2f11%2fKapilina-Clubhouse-7.jpg&ehk=pJOGDy2iEhRKuziWlRXTlDtBn7HG%2b17VK4ZrUBe0eDI%3d&risl=&pid=ImgRaw&r=0") ;
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}

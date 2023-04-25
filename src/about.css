@@ -1,0 +1,87 @@
+.about-page {
+    background-color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .header {
+    background-image: url("https://i.ibb.co/Rc1kk7q/hoosierhotels.png");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .bg-pastel-red {
+    background-color: #FFD1DC;
+  }
+  
+  .container {
+    padding: 50px;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #6B3E3E;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #8B4513;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  ul {
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #8B4513;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .footer {
+    background-color:#FFF;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-logo {
+    height: 50px;
+    width: 50px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
