@@ -25,7 +25,7 @@ function HotelForm() {
       redirect: 'follow'
     };
     
-    fetch("localhost:8081/api/v1/hotels/New%20York", requestOptions)
+    fetch("https://hoosier-hotel.herokuapp.com/api/v1/hotels/New%20York", requestOptions)
       .then(response => response.text())
       .then(result => console.log(result))
       .catch(error => console.log('error', error));

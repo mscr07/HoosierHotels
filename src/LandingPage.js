@@ -60,7 +60,7 @@ export default function LandingPage(props) {
       redirect: 'follow'
     };
     
-    fetch("http://localhost:8081/api/v1/hotels", requestOptions)
+    fetch("https://hoosier-hotel.herokuapp.com/api/v1/hotels", requestOptions)
       .then(response => response.json())
       .then(result => setHotels(result))
       .catch(error => console.log('error', error));

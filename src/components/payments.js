@@ -16,7 +16,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("localhost:8081/api/v1/payments/1", requestOptions)
+fetch("https://hoosier-hotel.herokuapp.com/api/v1/payments/1", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));

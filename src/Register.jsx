@@ -120,7 +120,7 @@ export const Register = (props) => {
         redirect: 'follow'
         };
 
-        fetch("http://localhost:8081/api/v1/users/", requestOptions)
+        fetch("https://hoosier-hotel.herokuapp.com/api/v1/users/", requestOptions)
         .then(response => response.text())
         .then(result => console.log(result))
         .catch(error => console.log('error', error));

@@ -8,7 +8,7 @@ function BookingForm() {
   const handleSubmit = event => {
     event.preventDefault();
     const data = { name, hotel, date };
-    fetch('http://localhost:8081/apis/bookingAPI', {
+    fetch('https://hoosier-hotel.herokuapp.com/apis/bookingAPI', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),

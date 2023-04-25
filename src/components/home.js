@@ -58,7 +58,7 @@ function HomePage(props) {
       redirect: 'follow'
     };
 
-    fetch("http://localhost:8081/api/v1/hotels/" + hotelId + "/bookings", requestOptions)
+    fetch("https://hoosier-hotel.herokuapp.com/api/v1/hotels/" + hotelId + "/bookings", requestOptions)
       .then(response => response.text())
       .then(result => {
         console.log(result);

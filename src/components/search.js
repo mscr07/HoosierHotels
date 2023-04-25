@@ -31,7 +31,7 @@ function Search(props) {
   const handleSearch = (event) => {
     event.preventDefault();
 
-    axios.get(`http://localhost:8081/api/v1/hotels/search?location=${location}&checkInDate=${checkInDate}&checkOutDate=${checkOutDate}&numberOfGuests=${numberOfGuests}`)
+    axios.get(`https://hoosier-hotel.herokuapp.com/api/v1/hotels/search?location=${location}&checkInDate=${checkInDate}&checkOutDate=${checkOutDate}&numberOfGuests=${numberOfGuests}`)
     .then(response => {
         // handle response
         //console.log(response);
