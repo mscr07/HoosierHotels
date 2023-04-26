@@ -87,17 +87,6 @@ export const Register = (props) => {
         setFormSubmitted(true);
         // Submit form data to backend API here
         try {
-            /*const response = await axios.post('http://localhost:8081/api/v1/users/', {
-              firstname,
-              lastname,
-              contactno,
-              email,
-              dob,
-              gender,
-              usertype,
-              pass,
-            });*/
-
         var myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
 
@@ -122,7 +111,7 @@ export const Register = (props) => {
 
         fetch("https://hoosier-hotel.herokuapp.com/api/v1/users/", requestOptions)
         .then(response => response.text())
-        .then(result => console.log(result))
+        .then(result => sessionStorage.setItem('firstname',result.firstName))
         .catch(error => console.log('error', error));
 
             

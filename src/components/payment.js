@@ -38,7 +38,7 @@ const PaymentGateway = ({ amount }) => {
       "checkOutDate": sessionStorage.getItem('checkOutDate'),
       "numGuests": sessionStorage.getItem('numberOfGuests'),
       "hotel": {
-        "hotelId": sessionStorage.getItem('hotelId')
+        "hotelId": 17
       }
     });
 
@@ -51,7 +51,7 @@ const PaymentGateway = ({ amount }) => {
       redirect: 'follow'
     };
 
-    fetch("https://hoosier-hotel.herokuapp.com/api/v1/hotels/"+sessionStorage.getItem('hotelId')+"/bookings", requestOptions)
+    fetch("https://hoosier-hotel.herokuapp.com/api/v1/hotels/17/bookings", requestOptions)
       .then(response => response.text())
       .then(result => {
         console.log(result);

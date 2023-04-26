@@ -16,6 +16,8 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import ExpenseItem from "./components/ExpenseItem";
 import Managerdb from "./managerdashboard";
 import { AdminCreate } from "./Admin/AdminCreate";
+import AdminCheckout from "./Admin/AdminCheckout";
+import {CheckoutForm} from "./Admin/CheckoutForm";
 
 function App() {
   
@@ -39,6 +41,9 @@ function App() {
     <Route path="/Dashboard" element={<Dashboard/>} />
     <Route path="/Managerdb" element={<Managerdb/>} />
     <Route path="/AdminCreate" element={<AdminCreate/>} />
+    <Route path="/AdminCheckout" element={<AdminCheckout/>} />
+    <Route path="/CheckoutForm" element={<CheckoutForm/>} />
+
 
 
   </Routes>

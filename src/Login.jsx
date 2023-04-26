@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 import LandingPage from "./LandingPage";
 import { useNavigate } from "react-router-dom";

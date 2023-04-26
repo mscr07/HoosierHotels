@@ -15,7 +15,7 @@ function Managerdb(){
                     <Card.Body>
                     <Card.Title style={{ fontSize:'25px', color:'black'}}>Sales</Card.Title>
                     <Card.Text>
-                         <h2>92000$</h2>
+                         <h2>2600$</h2>
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -23,7 +23,7 @@ function Managerdb(){
                     <Card.Body>
                     <Card.Title style={{ fontSize:'25px', color:'black'}}>Expenses</Card.Title>
                     <Card.Text>
-                         <h2>32000$</h2>
+                         <h2>2500$</h2>
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -31,7 +31,7 @@ function Managerdb(){
                     <Card.Body>
                     <Card.Title style={{ fontSize:'25px', color:'black'}}>Profit/Loss</Card.Title>
                     <Card.Text>
-                         <h2>12000$</h2>
+                         <h2>100$</h2>
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -39,7 +39,7 @@ function Managerdb(){
                     <Card.Body>
                     <Card.Title style={{ fontSize:'25px', color:'black'}}>Turnover</Card.Title>
                     <Card.Text>
-                         <h2>2000$</h2>
+                         <h2>100$</h2>
                     </Card.Text>
                     </Card.Body>
                 </Card>

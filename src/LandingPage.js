@@ -81,6 +81,7 @@ export default function LandingPage(props) {
             return (
               <ExpenseItem
                 hotelId={hotel.hotelId}
+                // {sessionStorage.setItem('hotelid',hotel.hotelId)}
                 searchParams = {data}
                 hotel={hotel.hotelName}
                 rating={hotel.rating}

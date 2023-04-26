@@ -1,37 +1,3 @@
-// import "bootstrap/dist/css/bootstrap.css";
-// import "./styles.css";
-// import {Link} from "react-router-dom";
-
-// function Navbar({ isLoggedIn }) {
-//   return (
-//     <nav className="navbar fixed-top navbar-light navbar-container nav-bar-container">
-//       <div className="sub-nav-container nav-padding-left">
-//         <a className="nav-link nav-active nav-item" href="#">
-//           Home
-//         </a>
-//         <a className="nav-link nav-item" href="/Home">
-//           Hotels
-//         </a>
-//         <a className="nav-link nav-item" href="/About">
-//           About
-//         </a>
-//       </div>
-//     <div className="sub-nav-container">
-//       {isLoggedIn ? (
-//         <Link to="/">Logout</Link>
-//       ) : (
-//         <>
-//           <Link to="/">Login</Link>
-//           <Link to="/Register" style={{ marginLeft: '10px' }}>Signup</Link>
-//         </>
-//       )}
-//     </div>
-
-//     </nav>
-//   );
-// }
-
-// export default Navbar;
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./styles.css";
@@ -41,6 +7,7 @@ import Dashboard from "./dashboard";
 import LandingPage from "../LandingPage";
 import HomeIcon from '@mui/icons-material/Home';
 import { AdminCreate } from "../Admin/AdminCreate";
+import CheckoutForm from "../Admin/CheckoutForm";
 
 function Navbar(props) {
   const [isLoggedIn,setIsLoggedIn] = useState(props.isLoggedIn);
@@ -68,6 +35,9 @@ function Navbar(props) {
         </a>}
         {userType === "admin" && <a className="nav-link nav-item" href="/AdminCreate">
           Add Hotels
+        </a>}
+        {userType === "admin" && <a className="nav-link nav-item" href="/CheckoutForm">
+          Checkout
         </a>}
       </div>
 

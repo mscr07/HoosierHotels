@@ -47,6 +47,7 @@ function Search(props) {
         sessionStorage.setItem('checkInDate',checkInDate);
         sessionStorage.setItem('checkOutDate',checkOutDate);
         sessionStorage.setItem('numberOfGuests',numberOfGuests);
+        
         console.log(response.hotelId);
     
       })

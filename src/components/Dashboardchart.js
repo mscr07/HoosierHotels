@@ -19,19 +19,19 @@ ChartJS.register(
   Legend
 );
 
-const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+const labels = ['January', 'February', 'March', 'April'];
 
 const data = {
   labels,
   datasets: [
     {
-      label: 'Dataset 1',
-      data: [200, 400, 600, 800, 1000, 1200, 1400],
+      label: 'Sales',
+      data: [250, 600, 900, 850],
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
     },
     {
-      label: 'Dataset 2',
-      data: [300, 500, 700, 900, 1100, 1300, 1500],
+      label: 'Expenses',
+      data: [300, 450, 800, 950],
       backgroundColor: 'rgba(53, 162, 235, 0.5)',
     },
   ],
